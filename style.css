@@ -1,0 +1,161 @@
+/* common css start */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+}
+
+/* common css end */
+
+
+/* ===========================
+navber-part-start
+===============================*/
+nav{
+    background: #1C1E53;
+}
+
+
+nav .nav-content{
+    display: flex;
+    width: 1340px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+nav .nav-content .menu-part{
+    margin-left: 380px;
+}
+
+
+nav .nav-content .menu-part ul{
+display: flex;
+column-gap: 32px;
+}
+
+nav .nav-content .menu-part ul li a{
+    font-size: 16px;
+    font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      color: #BBBBCB;
+      transition: .4s;
+}
+
+
+
+nav .nav-content .menu-part ul li a:hover{
+    color: #fff;
+}
+nav .nav-content .nav-btn a{
+    color: #fff;
+        font-size: 16px;
+    font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      padding: 16px 48px;
+      background: transparent;
+      border-radius: 41px;
+      border: 2px solid #F4F6FC33;
+      transition: .4s;
+}
+nav .nav-content .nav-btn a:hover{
+    border-color: #000;
+    background: #fcd980da;
+    color: black;
+}
+
+
+
+/* ===========================
+navber-part-end
+===============================*/
+
+
+/* ===========================
+banner-part-start 
+===============================*/
+.banner-part{
+    background: #1C1E53;
+    padding-top: 126px;
+}
+.banner-part .box .banner-content{
+    width: 1320px;
+    display: flex;
+}
+.banner-part .box .banner-content .banner-left{
+    width: 50%;
+}
+
+.banner-part .box .banner-content .banner-left h1{
+    font-size: 54px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    line-height: 74px;
+    color: white;
+}
+.banner-part .box .banner-content .banner-left p{
+    font-size: 16px;
+    font-weight: 500;
+   font-family: "Poppins", sans-serif;
+   line-height: 28px;
+   color: #ffffff7a;
+   width: 562px;
+   margin-top: 24px;
+   margin-bottom: 37px;
+}
+
+.banner-part .box .banner-content .banner-left a{
+display: inline-block;
+color: #1B1C2B;
+background: #FCD980;
+padding: 16px 56px;
+border-radius: 41px;
+transition: .4s;
+border: 2px solid #F4F6FC33 ;
+margin-bottom: 140px;
+}
+
+.banner-part .box .banner-content .banner-left a:hover{
+    color: #fff;
+    background: #1C1E53;
+}
+
+.banner-part .box .banner-content .banner-right{
+    width: 50%;
+}
+
+.banner-part .box .banner-content .banner-right .banner-image{
+    width: 638px;
+    height: 361.12px;
+}
+
+.banner-part .box .banner-content .banner-right .banner-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ===========================
+banner-part-end
+===============================*/
